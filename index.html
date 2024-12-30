@@ -14,6 +14,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -22,5 +23,271 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
+
+    <nav>
+      <div class="search-container">
+        <div class="searchbar">
+          <box-icon name="search" size="sm"></box-icon>
+          <input type="text" name="search" id="search" />
+        </div>
+      </div>
+      <div class="profile-container-small">
+        <box-icon name="bell-ring" type="solid" size="sm"></box-icon>
+        <img
+          src="./assets/profile pictures/gordon.png"
+          alt="Profile picture"
+          class="profile-picture-small"
+        />
+        <p>Gordon Freeman</p>
+      </div>
+      <div class="profile-container-big">
+        <img
+          src="./assets/profile pictures/gordon.png"
+          alt="profile picture"
+          class="profile-picture-big"
+        />
+        <div class="profile-container-text">
+          <p>Hello there,</p>
+          <p class="profile-bold-text">Gordon Freeman (@CombineHunter)</p>
+        </div>
+      </div>
+      <div class="action-button-container">
+        <button id="new">New</button>
+        <button id="upload">Upload</button>
+        <button id="share">Share</button>
+      </div>
+    </nav>
+    <aside>
+      <div class="sidebar-title-container">
+        <img src="./assets/logo.svg" alt="Logo" class="profile-picture-small" />
+        <p>Dashboard</p>
+      </div>
+      <div></div>
+      <div>
+        <box-icon color="white" name="home" type="solid"></box-icon>Home
+      </div>
+      <div><box-icon color="white" name="id-card"></box-icon>Profile</div>
+      <div>
+        <box-icon color="white" name="message" type="solid"></box-icon>Messages
+      </div>
+      <div>
+        <box-icon color="white" name="time" type="solid"></box-icon>History
+      </div>
+      <div><box-icon color="white" name="task"></box-icon>Tasks</div>
+      <div>
+        <box-icon color="white" name="group" type="solid"></box-icon>Communities
+      </div>
+      <div></div>
+      <div>
+        <box-icon color="white" name="cog" type="solid"></box-icon>Settings
+      </div>
+      <div>
+        <box-icon color="white" name="help-circle" type="solid"></box-icon
+        >Support
+      </div>
+      <div>
+        <box-icon color="white" name="check-shield" type="solid"></box-icon
+        >Privacy
+      </div>
+    </aside>
+    <section>
+      <p class="informations-bold">Projects</p>
+      <div class="cards-container">
+        <div class="card">
+          <div class="bar"></div>
+          <p class="card-bold">Anomalous Materials Research</p>
+          <p>
+            Investigating the properties of exotic substances and their
+            potential applications in energy production, materials science, and
+            advanced technologies.
+          </p>
+          <div class="card-actions-container">
+            <div>
+              <box-icon name="star"></box-icon>
+            </div>
+            <div>
+              <box-icon name="save"></box-icon>
+            </div>
+            <div>
+              <box-icon name="git-repo-forked"></box-icon>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bar"></div>
+
+          <p class="card-bold">Xen Ecology Studies</p>
+          <p>
+            Comprehensive research into the ecosystems of Xen, including flora,
+            fauna, and their interactions with terrestrial environments.
+          </p>
+          <div class="card-actions-container">
+            <div>
+              <box-icon name="star"></box-icon>
+            </div>
+            <div>
+              <box-icon name="save"></box-icon>
+            </div>
+            <div>
+              <box-icon name="git-repo-forked"></box-icon>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bar"></div>
+
+          <p class="card-bold">Teleportation Systems Development</p>
+          <p>
+            Advancing portal technology for instantaneous transport of personnel
+            and materials, with a focus on stability and accuracy.
+          </p>
+          <div class="card-actions-container">
+            <div>
+              <box-icon name="star"></box-icon>
+            </div>
+            <div>
+              <box-icon name="save"></box-icon>
+            </div>
+            <div>
+              <box-icon name="git-repo-forked"></box-icon>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bar"></div>
+
+          <p class="card-bold">Applied Hazardous Environment Training</p>
+          <p>
+            Specialized programs to prepare personnel for high-risk scenarios,
+            including exposure to hazardous materials and anomalous phenomena.
+          </p>
+          <div class="card-actions-container">
+            <div>
+              <box-icon name="star"></box-icon>
+            </div>
+            <div>
+              <box-icon name="save"></box-icon>
+            </div>
+            <div>
+              <box-icon name="git-repo-forked"></box-icon>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bar"></div>
+
+          <p class="card-bold">AI and Automated Systems Integration</p>
+          <p>
+            Development of advanced artificial intelligence systems to enhance
+            research processes, automate operations, and support
+            decision-making.
+          </p>
+          <div class="card-actions-container">
+            <div>
+              <box-icon name="star"></box-icon>
+            </div>
+            <div>
+              <box-icon name="save"></box-icon>
+            </div>
+            <div>
+              <box-icon name="git-repo-forked"></box-icon>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bar"></div>
+
+          <p class="card-bold">Advanced Energy Research</p>
+          <p>
+            Pioneering new energy systems through the study of high-energy
+            particles and exotic materials to revolutionize efficiency and
+            scalability.
+          </p>
+          <div class="card-actions-container">
+            <div>
+              <box-icon name="star"></box-icon>
+            </div>
+            <div>
+              <box-icon name="save"></box-icon>
+            </div>
+            <div>
+              <box-icon name="git-repo-forked"></box-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="informations-bold" id="announcements-title">Announcements</p>
+      <div class="announcements">
+        <div class="announcement-container">
+          <div class="announcement">
+            <p class="bold-announcement">
+              Warning: Anomalous Materials Incident
+            </p>
+            <p>
+              A containment breach was detected in Lab Sector C. All personnel
+              are advised to proceed with caution and follow emergency
+              protocols.
+            </p>
+            <hr />
+          </div>
+          <div class="announcement">
+            <p class="bold-announcement">Training Program Updates</p>
+            <p>
+              Registration is now open for the Applied Hazardous Environment
+              Training program. Mandatory for all Level 4 personnel.
+            </p>
+            <hr />
+          </div>
+          <div class="announcement">
+            <p class="bold-announcement">Security Reminder</p>
+            <p>
+              Ensure all access badges are visible at all times. Report any
+              suspicious activity to Security immediately.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="informations-bold" id="trending-title">Trending</p>
+      <div class="trending">
+        <div class="trending-container">
+          <div class="trending-item">
+            <img
+              class="profile-picture-small"
+              src="./assets/profile pictures/eli.png"
+              alt="eli"
+            />
+            <p class="trending-username">@eliVance</p>
+            <p>Anti-Gravitational Technology Development</p>
+          </div>
+          <div class="trending-item">
+            <img
+              class="profile-picture-small"
+              src="./assets/profile pictures/gman.png"
+              alt="gman"
+            />
+            <p class="trending-username">@Gman</p>
+            <p>[REDACTED]</p>
+          </div>
+          <div class="trending-item">
+            <img
+              class="profile-picture-small"
+              src="./assets/profile pictures/kleiner.png"
+              alt="kleiner"
+            />
+            <p class="trending-username">@isaacK</p>
+            <p>Quantum Entanglement Stabilization</p>
+          </div>
+          <div class="trending-item">
+            <img
+              class="profile-picture-small"
+              src="./assets/profile pictures/breen.png"
+              alt="breen"
+            />
+            <p class="trending-username">@adminBreen</p>
+            <p>Global Surveillance Initiative</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
